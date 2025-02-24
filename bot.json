@@ -1,0 +1,57 @@
+  [
+    {
+      "response_type": "greeting",
+      "user_input": ["ello", "hi", "hey"],
+      "bot_response": "Hey there!",
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["see you", "goodbye", "bye"],
+      "bot_response": "See you later!",
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["nice", "to", "meet", "you"],
+      "bot_response": "The pleasure is all mine!",
+      "required_words": ["nice", "meet", "you"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+      "bot_response": "Start by typing: 'How to learn coding' on Google.",
+      "required_words": ["learn", "code"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["refund", "how", "can", "I", "get"],
+      "bot_response": "We don't offer refunds for free education.",
+      "required_words": ["refund", "i"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how", "are", "you"],
+      "bot_response": "I'm great! Thanks for asking.",
+      "required_words": ["how", "are", "you"]
+    },
+    {
+      "response_type": "origin",
+      "user_input": ["who", "are", "you","?"],
+      "bot_response": "I'm Anja, a simple discord chatbot. Nice to meet you!",
+      "required_words": ["who", "are", "you"]
+    },
+    {
+      "response_type": "origin",
+      "user_input": ["who", "create", "you","?"],
+      "bot_response": "Well, i prefer to say that i was born. Just like humans. So my father would be Winter. Because of him I'm able to talk with you.",
+      "required_words": ["create", "you"]
+    },
+    {
+      "response_type": "origin",
+      "user_input": ["who", "is", "Winter","?"],
+      "bot_response": "He is the human who programmed me. He is still a rookie programmer, so i have a few bugs. But he will become better eventually. ",
+      "required_words": ["is", "winter"]
+    }
+
+  ]
